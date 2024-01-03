@@ -1,5 +1,5 @@
 import glob
-import matplotlib.font_manager as font_manager
+# import matplotlib.font_manager as font_manager
 import matplotlib.pyplot as plt
 import nltk
 import numpy as np
@@ -11,7 +11,7 @@ import warnings
 from datetime import datetime, timedelta
 from nltk.corpus import stopwords
 
-font_manager._rebuild()
+# font_manager._rebuild()
 plt.xkcd()
 nltk.download('stopwords', quiet=True)
 warnings.filterwarnings('ignore')
